@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Directory</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 Startup Directory</h1>
+  
+  <!-- Search bar -->
+  <div class="search-container">
+    <input type="text" id="searchBox" placeholder="Search for startups...">
+  </div>
+
+  <!-- Cards -->
+  <div class="card-container" id="startupCards">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="TechNova Logo">
+      <h2>TechNova</h2>
+      <p>Innovating AI-driven business solutions for the future.</p>
+      <a href="https://example.com" target="_blank">Visit</a>
+    </div>
+  </div>
+
+  <!-- Form Section -->
+  <section class="form-section">
+    <h2>💡 Submit Your Startup</h2>
+    <form id="startupForm">
+      <input type="text" id="startupName" placeholder="Startup Name" required>
+      <input type="url" id="startupLogo" placeholder="Logo URL (PNG/JPG/SVG)" required>
+      <textarea id="startupDesc" placeholder="Short Description" required></textarea>
+      <input type="url" id="startupLink" placeholder="Website Link" required>
+      <button type="submit">Add Startup</button>
+    </form>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
